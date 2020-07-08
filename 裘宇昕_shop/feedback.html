@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul li{list-style: none;}
+        article{
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            width: 500px;
+            height: 300px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+        li:first-child{
+            display: block;
+            background-color:#F5F5F5 ;
+            color: #212120;
+            padding: 10px;
+            border-bottom: 1px solid #cccccc;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        li:nth-child(2) span{
+            display: block;
+            font-size: 14px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        li:nth-child(2) input{
+            margin-left: 10px;
+            margin-top: 5px;
+            width: 470px;
+            height: 150px;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+        }
+        li:nth-child(3){
+            display: block;
+            background-color:#F5F5F5 ;
+            padding: 10px;
+            margin-top: 18px;
+        }
+        p{
+            display: block;
+            width: 33px;
+            padding: 5px;
+            background-color: #D9534F;
+            color: white;
+            border-radius: 5px;
+            position: relative;
+            left: 430px;
+        }
+    </style>
+</head>
+<body>
+    <object data="header.html" type="text/html" width="100%" height="150px"></object>
+    <object data="nav.html" type="text/html" width="100%" height="52px"></object>
+    <article>
+        <div>
+            <ul>
+                <li>用户反馈</li>
+                <li>
+                    <span>请输入反馈信息</span>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>提交</p>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <object data="footer.html" type="text/html" width="100%" height="450px"></object>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul li{list-style: none;}
+        body{background-color: #EEEEEE;}
+        body>div{
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow:0 0 5px 2px #ccc;
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div h1{
+            height: 40px;
+            padding: 30px 0 ;
+            font-weight: lighter;
+        }
+        div ul{
+            display: flex;
+            height: 50px;
+            align-items: center;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 10px;
+        }
+        div ul img{
+            width: 15px;
+            height: 15px;
+            position: relative;
+            top: 3px;
+            margin-right: 10px;
+        }
+        div ul input{
+            width: 250px;
+            border: none;
+        }
+        .h{
+            position: relative;
+            left: 220px;
+            color: #817D7F;
+        }
+        div>span{
+            display: block;
+            border: 1px solid #cccccc;
+            margin-top: 20px;
+            width: 270px;
+            padding: 5px 0;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 40px;
+            color: white;
+            background: linear-gradient(90deg,#00D0E3,#FC00FF);
+        }
+        h5{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: lighter;
+        }
+        div>img{
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>登陆</h1>
+        <div>
+            <h6>用户名</h6>
+            <ul>
+                <li><img src="img/login/1.png" alt=""></li>
+                <li>
+                    <input type="text" placeholder="请输入用户名">
+                </li>
+            </ul>
+            <h6>密码</h6>
+            <ul>
+                <li><img src="img/login/2.png" alt=""></li>
+                <li>
+                    <input type="text" placeholder="请输入密码">
+                </li>
+            </ul>
+            <h6 class="h">忘记密码？</h6>
+        </div>
+        <span>登陆</span>
+        <h5>第三方登陆</h5>
+        <div>
+            <img src="img/login/3.png" alt="">
+            <img src="img/login/4.png" alt="">
+            <img src="img/login/5.png" alt="">
+        </div>
+        <h5>立即注册</h5>
+    </div>
+</body>
+</html>

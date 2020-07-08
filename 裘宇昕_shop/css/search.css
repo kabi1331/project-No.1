@@ -1,0 +1,178 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+html{background-color: #FFFFFF;}
+/* aside start */
+aside{width: 1561px;margin: auto;}
+aside>span{color: #6D6D6D;}
+aside>label{color: #6D6D6D;font-weight: bold;}
+/* aside end */
+/* nav start */
+nav{
+    width: 1561px;margin: auto;
+    margin-bottom: 20px;
+}
+nav dl{
+    display: flex;
+    border-top: 1px solid #cccccc;
+}
+nav dl:last-child{
+    border-bottom: 1px solid #cccccc;
+}
+nav dd{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #F3F3F3;
+    color: #494949;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav dt{
+    display: block;
+    height: 50px;
+    color: #0058A0;
+    line-height: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+/* nav end */
+/* article start */
+article{
+    width: 1561px;margin: auto;
+    display: flex;
+}
+article div:first-child{
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    width: 160px;
+}
+article div:first-child span{
+    font-size: 25px;
+    color: #C40018;
+}
+article div:first-child p{
+    color: #CCCCCC;
+    position: relative;
+    top: -30px;
+    right: -127px;
+}
+article div:first-child ul{
+    display: flex;
+    flex-direction:column;
+}
+article div:first-child li img{
+    width: 160px;
+    height: 160px;
+}
+article div:first-child li h2{
+    color: #C40018;
+}
+article div:first-child li h6{
+    width: 150px;
+    color: #3F3F3F;
+}
+article div:first-child li h5{
+    color: #3F3F3F;
+    margin-top: 5px;
+}
+article div:nth-child(2){
+    margin-left: 20px;
+}
+article div:nth-child(2) dl{
+    display: flex;
+    width: 1361px;
+    height: 40px;
+    background-color: #F1F1F1;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+}
+article div:nth-child(2) dd{
+    color: white;
+    display: block;
+    width: 60px;
+    height: 25px;
+    background-color: #F81A31;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 40px;
+}
+article div:nth-child(2) dt{
+    display: block;
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 10px;
+}
+article div:nth-child(2) ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+article div:nth-child(2) ul li{
+    padding: 5px;
+}
+article div:nth-child(2) ul li:hover{
+    box-shadow:0 0 5px 2px #ccc;
+}
+article div:nth-child(2) h1{
+    color: #C40018;
+}
+article div:nth-child(2) h6{
+    width: 230px;
+    color: #3F3F3F;
+}
+article div:nth-child(2) img{
+    width: 250px;
+    height: 250px;
+}
+article div:nth-child(2) h5{
+    color: #009E8E;
+    margin-top: 5px;
+}
+article div:nth-child(2) span{
+    font-size: 12px;
+    color: #F93C48;
+}
+/* article end */
+/* footer start */
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+    left: 900px;
+    color: #0B7CBD;
+}
+footer li{
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-right: 1px solid #CCCCCC;
+}
+footer li:last-child{
+    border: none;
+}
+footer li:nth-child(2){
+    background-color: #037BBC;
+    color: white;
+}
+footer li:nth-child(n+3):hover{
+    background-color: #EEEEEE;
+}
+footer li:last-child:hover{
+    background-color: #FFFFFF;
+}
+/* footer end */
